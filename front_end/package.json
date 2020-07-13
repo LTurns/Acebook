@@ -37,5 +37,8 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "http://localhost:3030"
+  "proxy": "http://localhost:3030",
+  "devDependencies": {
+    "concurrently": "^5.2.0"
+  }
 }

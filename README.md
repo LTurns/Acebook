@@ -1,115 +1,68 @@
-# Acebook
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Project Description
+## Available Scripts
 
-Acebook is a social media platform, similar to Facebook, built as part of the Makers Academy course and specifically as part of the week 8-9 engineering project.
+In the project directory, you can run:
 
-## Features
+### `yarn start`
 
-Acebook has the following features:
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-* User sign up
-* User log in
-* A Timeline of posts
-* A user can create a post
-* A user can edit and delete their own posts
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
 
-## Dependencies
+### `yarn test`
 
-This project uses the following technologies:
-- [Express](https://expressjs.com/) web framework for Node.js.
-- [Nodemon](https://nodemon.io/) to reload the server automatically.
-- [Handlebars](https://handlebarsjs.com/) to render view templates.
-- [Mongoose](https://mongoosejs.com) to model objects in MongoDB.
-- [ESLint](https://eslint.org) for linting.
-- [Jest](https://jestjs.io/) for testing.
-- [Cypress](https://www.cypress.io/) for end-to-end testing.
+Launches the test runner in the interactive watch mode.<br />
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## Card wall
+### `yarn build`
 
-Our card wall can be found at this link: https://trello.com/b/7Jr6hjux/node4code
+Builds the app for production to the `build` folder.<br />
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## Getting Started
+The build is minified and the filenames include the hashes.<br />
+Your app is ready to be deployed!
 
-To get started using Acebook by Team Node4Code, please follow the instructions below:
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### Install Node.js
+### `yarn eject`
 
-**Skip this step if you already have Node.js installed**
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-1. Install Node Version Manager (NVM)
-    ```
-    brew install nvm
-    ```
-    Then follow the instructions to update your `~/.bash_profile`.
-2. Open a new terminal
-3. Install the latest long term support (LTS) version of [Node.js](https://nodejs.org/en/), currently `12.14.1`.
-    ```
-    nvm install 12.14.1
-    ```
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-### Getting set up
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-Once you have installed Node:
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-1. Clone this repository to your local machine
-2. Install Node.js dependencies using the command:
-    ```
-    npm install
-    ```
-3. Install MongoDB
-    ```
-    brew tap mongodb/brew
-    brew install mongodb-community@4.2
-    ```
-4. Start MongoDB
-    ```
-    brew services start mongodb-community@4.2
-    ```
+## Learn More
 
-### Using Acebook!
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To use Acebook you must start the backend server, then start the frontend server.
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-1. To start the backend server, navigate to the Node4Code root directory and enter the command:
-    ```
-    npm start
-    ```
+### Code Splitting
 
-2. To start the front server, navigate to the directory named 'react' and enter the same command.
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
-3. Browse to [http://localhost:3000](http://localhost:3000) to view and use Acebook!
+### Analyzing the Bundle Size
 
-## Testing
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
 
-### To run tests
+### Making a Progressive Web App
 
-* Run all tests
-    ```
-    npm test
-    ```
-* Run a specific check
-    ```
-    npm run lint              # linter only
-    npm run test:unit           # unit tests only
-    npm run test:integration  # integration tests only
-    ```
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
 
-#### Starting the test server
+### Advanced Configuration
 
-The server must be running locally with test configuration for the
-integration tests to pass.
-```
-npm run start:test
-```
-This starts the server on port `3030` and uses the `acebook_test` MongoDB database,
-so that integration tests do not interact with the development server.
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
 
-## How to contribute
+### Deployment
 
-If you would like to contribute to this project, you can follow the instructions below
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
 
-1. Clone this repository to your local computer
-2. Create a new branch: $ git checkout https://github.com/Joanneyoung01/Node4Code -b name_for_new_branch.
-3. Make changes and test
-4. Submit Pull Request with comprehensive description of changes
+### `yarn build` fails to minify
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
