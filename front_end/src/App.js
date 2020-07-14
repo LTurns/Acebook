@@ -12,7 +12,7 @@ function App() {
   return (
     <Router>
       <Navbar />
-      <Route path="/" exact component={Posts}/>
+      <Route path="/" exact component={userLogin}/>
       <Route path="/posts" exact component={Posts}/>
       <Route path="/posts/:id" exact component={Posts}/>
       <Route path="/user/new" exact component={userSignup}/>
